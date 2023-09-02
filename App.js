@@ -15,7 +15,7 @@ function App() {
   }, []);
   return (
     <div>
-    <h1></h1>
+    <h1>Your data added </h1>
       {expenses.map((person, index) => (
         <ExpenseItems
           key={index}
